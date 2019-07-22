@@ -74,6 +74,7 @@ public class RabbitExchangeConfigBean {
       triggeredByValue = {"DIRECT", "TOPIC"},
       displayPosition = 50,
       group = "#0"
+      elDefs = {RecordEL.class}
   )
   public String routingKey = "";
 
